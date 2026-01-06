@@ -43,7 +43,7 @@ export default function Hero() {
     return (
         <section
             ref={sectionRef}
-            className="rounded-lg relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-20 px-6 lg:px-20 max-w-7xl mx-auto"
+            className="rounded-lg relative min-h-[100vh] flex items-center justify-center overflow-hidden pt-20 px-6 lg:px-20 max-w-7xl mx-auto"
         >
             {/* Background Elements */}
             <div className="absolute inset-0 bg-primary -z-10" />
@@ -120,13 +120,13 @@ export default function Hero() {
 
                         {/* 5. REFINED FLOATING TAG */}
                         <div className="absolute -bottom-4 -left-10 bg-[#002747]/80 backdrop-blur-2xl border border-white/10 p-5 rounded-3xl shadow-2xl z-20 hidden md:block group-hover:-translate-y-2 transition-transform duration-500">
-                            <div className="flex items-center gap-3 mb-2">
-                                <div className="w-2 h-2 rounded-full bg-accent shadow-[0_0_10px_#5CFF00]" />
-                                <p className="text-white/40 text-[10px] font-mono tracking-widest uppercase">Verified Expert</p>
-                            </div>
+                            {/*<div className="flex items-center gap-3 mb-2">*/}
+                            {/*    <div className="w-2 h-2 rounded-full bg-accent shadow-[0_0_10px_#5CFF00]" />*/}
+                            {/*    <p className="text-white/40 text-[10px] font-mono tracking-widest uppercase">Verified Expert</p>*/}
+                            {/*</div>*/}
                             <p className="text-white font-black text-2xl italic">MAHEDI <span className="text-accent">HASAN</span></p>
                             <div className="mt-2 h-[1px] w-full bg-white/5" />
-                            <p className="text-white/60 text-[11px] mt-2 font-medium">FULL-STACK DEVELOPER • UI ARCHITECT</p>
+                            <p className="text-white/60 text-[11px] mt-2 font-medium">FRONTEND DEVELOPER • PRODUCT DESIGNER</p>
                         </div>
 
                         {/* 6. SECONDARY MINI-TAG (Right side) */}
