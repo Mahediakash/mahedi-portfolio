@@ -130,10 +130,10 @@ export default function Footer() {
                 {/* 4. THE BOTTOM BAR */}
                 <div className="flex flex-col md:flex-row justify-between items-center pt-10 border-t border-white/5 text-white/20 text-[10px] font-mono tracking-[0.2em] uppercase">
                     <p>© 2026 MAHEDI HASAN — CRAFTED WITH PASSION</p>
-                    <div className="flex gap-10 mt-6 md:mt-0">
-                        <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-                        <a href="#" className="hover:text-white transition-colors">Cookie Settings</a>
-                    </div>
+                    {/*<div className="flex gap-10 mt-6 md:mt-0">*/}
+                    {/*    <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>*/}
+                    {/*    <a href="#" className="hover:text-white transition-colors">Cookie Settings</a>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </footer>
