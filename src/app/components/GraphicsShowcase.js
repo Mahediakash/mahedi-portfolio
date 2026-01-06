@@ -22,12 +22,11 @@ const designImages = [
 export default function GraphicShowcase() {
     const row1Ref = useRef(null);
     const row2Ref = useRef(null);
-    const row3Ref = useRef(null);
 
     useEffect(() => {
         const ctx = gsap.context(() => {
             // Row 1 & 3: Moving Left
-            [row1Ref.current, row3Ref.current].forEach((el) => {
+            [row1Ref.current].forEach((el) => {
                 const w = el.scrollWidth / 2;
                 gsap.to(el, {
                     x: -w,
@@ -96,15 +95,6 @@ export default function GraphicShowcase() {
                     <div ref={row2Ref} className="flex">
                         {[...designImages, ...designImages].map((src, i) => (
                             <DesignCard key={i} src={src} rotationY={15} />
-                        ))}
-                    </div>
-                </div>
-
-                {/* Row 3: Left + Angled Right */}
-                <div className="flex">
-                    <div ref={row3Ref} className="flex">
-                        {[...designImages, ...designImages].map((src, i) => (
-                            <DesignCard key={i} src={src} rotationY={-15} />
                         ))}
                     </div>
                 </div>
