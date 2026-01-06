@@ -29,8 +29,26 @@ export default function Footer() {
         );
     }, []);
 
+    const navLinks = [
+        { name: "Services", href: "#services" },
+        { name: "UI/UX", href: "#ui-ux" },
+        { name: "Graphic", href: "#graphics" },
+        { name: "Testimonials", href: "#testimonials" },
+        { name: "Contact", href: "#contact" },
+    ];
+
+    const handleScroll = (e, href) => {
+        e.preventDefault();
+        const targetId = href.replace("#", "");
+        const elem = document.getElementById(targetId);
+        elem?.scrollIntoView({
+            behavior: "smooth",
+        });
+    };
+
     return (
         <footer
+            id="footer"
             ref={footerRef}
             className="relative bg-primary pt-24 pb-12 overflow-hidden border-t border-white/5"
         >
@@ -56,7 +74,9 @@ export default function Footer() {
                         </p>
                     </div>
 
-                    <button className="group relative px-12 py-12 bg-accent text-primary rounded-full font-black text-xl hover:scale-105 transition-all duration-500 shadow-[0_0_50px_rgba(92,255,0,0.3)]">
+                    <button onClick={() => {
+                       window.location.href = "mailto:mahedihasan9065@gmail.com"
+                    }} className="cursor-pointer group relative px-12 py-12 bg-accent text-primary rounded-full font-black text-xl hover:scale-105 transition-all duration-500 shadow-[0_0_50px_rgba(92,255,0,0.3)]">
             <span className="flex items-center gap-2">
               START A PROJECT <ArrowUpRight size={28} />
             </span>
@@ -83,12 +103,14 @@ export default function Footer() {
                     <div>
                         <h4 className="text-white font-bold uppercase tracking-widest text-xs mb-8">Navigation</h4>
                         <ul className="space-y-4">
-                            {['Home', 'UI-UX', 'Graphics', 'Services', 'Contact'].map((item) => (
-                                <li key={item}>
-                                    <a href={`#${item.toLowerCase()}`} className="text-white/40 hover:text-accent transition-all flex items-center group">
+                            {navLinks.map((item) => (
+                                <li key={item.name}>
+                                    <button href={item.href}
+                                            onClick={(e) => handleScroll(e, item.href)}
+                                            className="cursor-pointer text-white/40 hover:text-accent transition-all flex items-center group">
                                         <span className="w-0 group-hover:w-4 h-[1px] bg-accent mr-0 group-hover:mr-2 transition-all" />
-                                        {item}
-                                    </a>
+                                        {item.name}
+                                    </button>
                                 </li>
                             ))}
                         </ul>

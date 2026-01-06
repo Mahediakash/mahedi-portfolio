@@ -71,7 +71,7 @@ export default function Hero() {
                     <div className="hero-item flex flex-wrap gap-4">
                         <button
                             onClick={() => {
-                                document.getElementById("contact")?.scrollIntoView({
+                                document.getElementById("footer")?.scrollIntoView({
                                     behavior: "smooth",
                                 });
                             }}

@@ -20,7 +20,7 @@ export default function Dashboard() {
                 <Portfolio />
                 <GraphicShowcase/>
                 <Testimonials/>
-                <ContactForm />
+                {/*<ContactForm />*/}
                 <Footer />
             </div>
         </main>
