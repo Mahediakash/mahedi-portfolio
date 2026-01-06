@@ -14,8 +14,9 @@ import Image from "next/image";
 import TitleReveal from "@/app/components/TitleReveal";
 
 const designImages = [
-    "/graphics/design1.png", "/design2.png", "/design3.png", "/design4.png", "/design5.png",
-    "/design6.png", "/design7.png", "/design8.png", "/design9.png", "/graphics/design10.png", "/graphics/design11.png",
+    "/graphics/design1.png", "/graphics/design2.png", "/graphics/design3.png", "/graphics/design4.png", "/graphics/design5.png",
+    "/graphics/design6.png", "/graphics/design7.png", "/graphics/design8.png", "/graphics/design9.png", "/graphics/design10.png",
+    "/graphics/design11.png",
 ];
 
 export default function GraphicShowcase() {
