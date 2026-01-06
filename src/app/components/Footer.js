@@ -68,7 +68,7 @@ export default function Footer() {
 
                     {/* Brand Info */}
                     <div className="md:col-span-2">
-                        <div className="text-accent font-black text-3xl italic tracking-tighter mb-6">DASH.</div>
+                        <div className="text-accent font-black text-3xl italic tracking-tighter mb-6">MAHEDI H.</div>
                         <div className="space-y-4">
                             <a href="mailto:mahedihasan9065@gmail.com" className="flex items-center gap-3 text-white/60 hover:text-accent transition-colors">
                                 <Mail size={18} /> mahedihasan9065@gmail.com

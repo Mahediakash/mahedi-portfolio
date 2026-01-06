@@ -57,7 +57,7 @@ export default function Navbar() {
             <div className="backdrop-blur-xl bg-primary/40 border border-white/10 py-3 px-6 md:px-8 rounded-2xl flex justify-between items-center shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
 
                 {/* Logo */}
-                <span className="text-accent font-black text-2xl tracking-tighter italic">DASH.</span>
+                <span className="text-accent font-black text-2xl tracking-tighter italic">MAHEDI H.</span>
 
                 {/* Nav Links */}
                 <div className="hidden md:flex items-center gap-2 bg-white/5 p-1 rounded-xl border border-white/5">

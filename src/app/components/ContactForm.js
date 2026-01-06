@@ -36,7 +36,7 @@ export default function Contact() {
                     </div>
                     <div className="mt-12">
                         <p className="text-primary/40 text-xs font-bold uppercase tracking-widest mb-2">Direct Mail</p>
-                        <p className="text-primary text-2xl font-bold underline">hello@dash.studio</p>
+                        <a href="mailto:mahedihasan9065@gmail.com" className="text-primary text-2xl font-bold underline">mahedihasan9065@gmail.com</a>
                     </div>
                 </div>
 
