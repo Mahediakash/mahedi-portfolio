@@ -7,6 +7,7 @@ import ContactForm from "@/app/components/ContactForm";
 import Footer from "@/app/components/Footer";
 import Testimonials from "@/app/components/Testimonials";
 import GraphicShowcase from "@/app/components/GraphicsShowcase";
+import FrontendShowcase from "@/app/components/FrontendProject";
 
 
 export default function Dashboard() {
@@ -19,6 +20,7 @@ export default function Dashboard() {
                 <Services />
                 <Portfolio />
                 <GraphicShowcase/>
+                <FrontendShowcase/>
                 <Testimonials/>
                 {/*<ContactForm />*/}
                 <Footer />

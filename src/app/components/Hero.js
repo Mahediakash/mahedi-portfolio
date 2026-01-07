@@ -43,7 +43,7 @@ export default function Hero() {
     return (
         <section
             ref={sectionRef}
-            className="rounded-lg relative min-h-[100vh] flex items-center justify-center overflow-hidden pt-20 px-6 lg:px-20 max-w-7xl mx-auto"
+            className="rounded-lg relative min-h-[100vh] flex items-center justify-center pt-20 px-6 lg:px-20 max-w-7xl mx-auto"
         >
             {/* Background Elements */}
             <div className="absolute inset-0 bg-primary -z-10" />
