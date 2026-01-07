@@ -4,7 +4,7 @@ import Ticker from "@/app/components/Ticker";
 import Portfolio from "@/app/components/Portfolio";
 import Services from "@/app/components/Services";
 import ContactForm from "@/app/components/ContactForm";
-import Footer from "@/app/components/Footer";
+import Footer from "@/app/components/ui/Footer";
 import Testimonials from "@/app/components/Testimonials";
 import GraphicShowcase from "@/app/components/GraphicsShowcase";
 import FrontendShowcase from "@/app/components/FrontendProject";

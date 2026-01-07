@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { Github, Twitter, Linkedin, ArrowUpRight, Mail, Phone } from "lucide-react";
-import behance from "../../../public/behance.svg"
+import behance from "../../../../public/behance.svg"
 import Image from "next/image";
 import BehanceIcon from "@/app/components/icons/BehanceIcon";
 

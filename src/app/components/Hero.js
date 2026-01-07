@@ -131,7 +131,11 @@ export default function Hero() {
 
                         {/* 6. SECONDARY MINI-TAG (Right side) */}
                         <div className="absolute top-20 -right-6 bg-accent p-3 rounded-2xl shadow-2xl rotate-12 hidden md:block">
-                            <p className="text-primary font-black text-xs">99% SUCCESS</p>
+                            <p className="text-primary font-black text-xs">01 Interview Taken</p>
+                        </div>
+
+                        <div className="absolute top-50 -left-6 bg-accent p-3 rounded-2xl shadow-2xl -rotate-12 hidden md:block">
+                            <p className="text-primary font-black text-xs">01 Interview Taken</p>
                         </div>
                     </div>
                 </div>
