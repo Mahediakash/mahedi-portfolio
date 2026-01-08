@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import { Quote, Star, Plus, ChevronLeft, ChevronRight } from "lucide-react";
+import {Quote, Star, Plus, ChevronLeft, ChevronRight, Linkedin, LucideLinkedin} from "lucide-react";
 import TitleReveal from "@/app/components/TitleReveal";
 import Image from "next/image";
 
@@ -23,16 +23,10 @@ const reviews = [
         img: "/testimonial/img.png"
     },
     {
-        name: "Sarah Jenkins",
-        role: "Marketing Director",
-        text: "The dashboard he built for us isn't just a tool; it's a masterpiece. Our conversion metrics have never looked better.",
-        img: "https://i.pravatar.cc/150?u=2"
-    },
-    {
-        name: "Michael Chen",
-        role: "Lead Architect",
-        text: "Clean, modular, and incredibly fast. Mahedi is my go-to for any project requiring GSAP expertise.",
-        img: "https://i.pravatar.cc/150?u=3"
+        name: "Tahsin Tazwar",
+        role: "Venture Architect | Capital Advisor | Co-Founder @ RaiseOS",
+        text: "I had the opportunity to work closely with Mahedi Hasan across multiple products, including DealDone and RaiseOS. He consistently demonstrated a strong grasp of both product strategy and user experience, translating complex business requirements into elegant, intuitive, and scalable UI/UX solutions. His ability to align design with real business and user needs made a meaningful impact on the overall quality of our platforms. I would confidently recommend him for any product-driven UI/UX role.",
+        img: "/testimonial/img_1.png"
     }
 ];
 
@@ -154,7 +148,7 @@ export default function Testimonials() {
                                 </div>
                                 {/* Content Side */}
                                 <div className="flex flex-col flex-1">
-                                    <Quote className="text-accent mb-6 opacity-30" size={48} />
+                                    <LucideLinkedin className="text-accent mb-6 opacity-30" size={48} />
                                     <div className="flex gap-1 mb-4 text-accent">
                                         {[...Array(5)].map((_, starI) => <Star key={starI} size={16} fill="currentColor" />)}
                                     </div>
