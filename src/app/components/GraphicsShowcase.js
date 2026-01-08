@@ -12,6 +12,8 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import Image from "next/image";
 import TitleReveal from "@/app/components/TitleReveal";
+import {ChevronDown, ChevronUp} from "lucide-react";
+import BehanceIcon from "@/app/components/icons/BehanceIcon";
 
 const designImages = [
     "/graphics/design1.png", "/graphics/design2.png", "/graphics/design3.png", "/graphics/design4.png", "/graphics/design5.png",
@@ -112,6 +114,20 @@ export default function GraphicShowcase() {
 
             {/* Background Accent Glow */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[400px] bg-[#5CFF00]/5 blur-[150px] -z-10" />
+
+            <div className="mt-12 flex justify-center relative z-20">
+                <a
+                    href="https://www.behance.net/mahedihasan41"
+                    target="_blank"
+                    className="group transition-all active:scale-95"
+                >
+                    {/* Added flex, items-center, justify-center, and gap-3 for perfect alignment */}
+                    <div className="flex items-center justify-center cursor-pointer gap-3 px-14 py-5 bg-white/5 border border-white/10 rounded-2xl text-white font-black italic tracking-widest hover:bg-[#5CFF00] hover:text-[#002747] hover:border-[#5CFF00] transition-all duration-500 shadow-2xl">
+                        <BehanceIcon />
+                        <span>SEE MORE PROJECT ON BEHANCE</span>
+                    </div>
+                </a>
+            </div>
         </section>
     );
 }

@@ -11,18 +11,19 @@ import {
     LayoutTemplate,
     Cpu,
     FileJson,
-    Palette
+    Palette, Framer, Tangent
 } from "lucide-react";
 
 const skills = [
-    { name: "NEXT.JS", icon: <Cpu size={40} /> },
+    { name: "JAVASCRIPT", icon: <FileJson size={40} /> },
+    { name: "NEXT.JS", icon: <Cpu size={40}/> },
     { name: "TAILWIND CSS", icon: <Wind size={40} /> },
     { name: "GSAP", icon: <Zap size={40} /> },
-    { name: "FIGMA", icon: <Figma size={40} /> },
-    { name: "UI/UX DESIGN", icon: <LayoutTemplate size={40} /> },
     { name: "FRAMER MOTION", icon: <Code2 size={40} /> },
-    { name: "JAVASCRIPT", icon: <FileJson size={40} /> },
-    { name: "POSTER DESIGN", icon: <Palette size={40} /> },
+    { name: "FIGMA", icon: <Figma size={40} /> },
+    { name: "FRAMER", icon: <Framer size={40} /> },
+    { name: "PHOTOSHOP", icon: <Palette size={40} /> },
+    { name: "ILLUSTRATOR", icon: <Tangent size={40} /> },
 ];
 
 export default function Ticker() {
