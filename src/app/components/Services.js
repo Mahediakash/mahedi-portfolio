@@ -19,8 +19,8 @@ const services = [
         icon: <Code2 className="w-8 h-8" />,
     },
     {
-        title: "Graphics Design",
-        desc: "Bringing interfaces to life with GSAP and Framer Motion for that 'premium' feel.",
+        title: "Social Media Design",
+        desc: "High-impact social visuals built to boost reach, clicks, and recall.",
         icon: <Monitor className="w-8 h-8" />,
     },
     // {

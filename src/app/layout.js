@@ -46,14 +46,14 @@ export const metadata = {
     },
 
     openGraph: {
-        title: "Mahedi Hasan | Frontend Developer & UI Engineer",
+        title: "Mahedi Hasan | Frontend Developer & Product Designer",
         description:
             "I don’t just hand off designs—I build them. Frontend Developer skilled in React, Next.js, and modern UI Design.",
         url: "https://mahedi-portfolio.vercel.app/",
         siteName: "Mahedi Hasan Portfolio",
         images: [
             {
-                url: "/profile.png", // put in /public
+                url: "/For Graph.png", // put in /public
                 width: 1200,
                 height: 630,
                 alt: "Mahedi Hasan Portfolio",

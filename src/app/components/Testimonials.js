@@ -12,7 +12,7 @@ const stats = [
     { label: "PROJECTS COMPLETED", value: 20 },
     { label: "HAPPY CLIENTS", value: 15 },
     { label: "COMPANIES SERVED", value: 10 },
-    { label: "AWARDS WON", value: 5 },
+    { label: "CASE STUDY", value: 1 },
 ];
 
 const reviews = [
